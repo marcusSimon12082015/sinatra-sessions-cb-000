@@ -56,7 +56,7 @@ class App < Sinatra::Base
     session.clear
     #binding.pry
     "Session has now been cleared. session content: #{session.inspect}. Continue on to the '/finish' line!"
-    redirect '/finish'
+    #redirect '/finish'
   end
 
   get '/finish' do
